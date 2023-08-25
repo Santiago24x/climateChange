@@ -14,7 +14,7 @@ Diseñar y desarrollar una plataforma web educativa, utilizando recursos digital
 
 ## **Estado del Arte**
 
-Webgrafía
+**Webgrafía**
 
 [https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/](https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/)
 
@@ -37,7 +37,7 @@ Webgrafía
 
 [https://www.unicef.org/es/medio-ambiente-cambio-climatico](https://www.unicef.org/es/medio-ambiente-cambio-climatico)
 
-Bancos de imágenes y visuales
+**Bancos de imágenes y visuales**
 
 [https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
 
@@ -46,7 +46,7 @@ Bancos de imágenes y visuales
 [https://pixabay.com/es/](https://pixabay.com/es/)
 [https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur](https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur)
 
-Los temas principales y que pensamos resolver en nuestra web son:
+**Los temas principales y que pensamos resolver en nuestra web son:**
 
 - ¿Qué es el cambio climático?
 - El cambio climático natural
