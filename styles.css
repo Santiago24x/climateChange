@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 100vw;
+    background-image: url(./Images/climate-change-5224748_1920.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99; */
+}
+
+header ul{
+    margin: 0%;
+}
+header a, h1{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+nav{
+    height: 80px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.item {
+    text-decoration: none;
+    margin: 0 0.8rem;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #F2F2F2;
+}
+
+.item:hover {
+    font-weight: 500;
+    color: #17dddd;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.logo{
+    background-color: #17dddd;
+}
+
+.header-body{
+    display: flex;
+    justify-content: right;
+    text-align: justify;
+}
+.header-body h1{
+    margin: 0%;
+    padding-top: 2%;
+    padding-left: 60%;
+    padding-right: 8%;
+    text-align: right;
+    font-size: 35px;
+    
+}
