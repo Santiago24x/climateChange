@@ -26,9 +26,10 @@ html{
 
 /* header */
 header{
-    height: 100vw;
+    height: 55vw;
     position: relative;
     background-image: url(./Images/11.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     /* top: 0;
@@ -48,7 +49,6 @@ header a, header h1{
     text-decoration: none;
     font-family: System-ui,sans-serif;
 }
-
 nav{
     height: 80px;
     padding: 3rem;
@@ -64,8 +64,8 @@ nav{
 
 .item {
     text-decoration: none;
-    margin: 0 0.8rem;
-    font-size: 1rem;
+    margin: 0 0.4rem;
+    font-size: 1vw;
     font-weight: 400;
     cursor: pointer;
     color: #F2F2F2;
@@ -99,7 +99,7 @@ nav{
     padding-left: 60%;
     padding-right: 8%;
     text-align: right;
-    font-size: 35px;
+    font-size: 2.5vw; 
     
 }
 
@@ -147,7 +147,12 @@ nav{
     align-items: center;
     gap: 20px;
 }
-
+.hidden_txts{
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+    background-color: #161616;
+}
 .text-box-2{
     text-align: justify;
     padding: 1.5rem;
