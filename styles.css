@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 * {
     box-sizing: border-box;
@@ -7,11 +8,11 @@ html{
     padding: 0;
 }
 
-
+/* header */
 header{
     height: 100vw;
-    background-image: url(./Images/climate-change-5224748_1920.jpg);
     position: relative;
+    background-image: url(./Images/11.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
     /* top: 0;
@@ -25,7 +26,7 @@ header{
 header ul{
     margin: 0%;
 }
-header a, h1{
+header a, header h1{
     color: #f6f6f6;
     text-decoration: none;
 }
@@ -46,7 +47,7 @@ nav{
 .item {
     text-decoration: none;
     margin: 0 0.8rem;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
     color: #F2F2F2;
@@ -82,4 +83,156 @@ nav{
     text-align: right;
     font-size: 35px;
     
+}
+
+.titulo{
+    display: inline-block;
+    padding: 0.8rem;
+    border: solid;
+}
+/* div datos */
+
+.datos{
+    margin: 5%;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.text-box-1{
+    padding: 0.8rem;
+    text-align: center;
+}
+.text-box-1 h2, h3{
+    color: #25b205;
+    padding-bottom: 1%;
+}
+.text-box-1 h2{
+    font-size: 2.5em;
+}
+.text-box-1 h3{
+    font-size: 1.5em;
+}
+
+/* explicaion */
+.container-explicacion{
+    text-align: center;
+}
+
+.explicacion{
+    margin: 5%;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-box-2{
+    text-align: justify;
+    padding: 1.5rem;
+}
+
+.text-box-2 p{
+    padding: 0.8rem;
+}
+
+.text-box-2 a{
+    text-decoration: none;
+    position: relative;
+    padding: 2%;
+    color: #F2F2F2;
+    border-radius: 0.4rem;
+    background-color: #25b205;
+}
+
+.img-box-1 img{
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+/* causas */
+
+.causas{
+    text-align: center;
+}
+
+.target{
+    margin: 5%;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    text-align: justify;
+    border: solid;
+    box-shadow: 5px 5px rgb(0, 0, 0);   
+}
+
+.cards p{
+    padding: 0.5rem;
+}
+
+.cards a{
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    padding: 2%;
+    color: #F2F2F2;
+    border-radius: 0.4rem;
+    background-color: #25b205;
+}
+/* mitigacion */
+
+.container-mitigacion{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-mitigacion a{
+    text-decoration: none;
+    position: relative;
+    padding: 2.5%;
+    color: #F2F2F2;
+    border-radius: 0.4rem;
+    background-color: #25b205;
+}
+
+.target-mitigacion{
+    padding: 1.4rem;
+    border: solid;
+    box-shadow: 5px 5px rgb(0, 0, 0);  
+}
+
+.target-mitigacion li{
+    padding: 0.8rem;
+    text-align: justify;
+    list-style: none;
+}
+
+/* galeria */
+.container-galeria{
+    margin: 5%;
+}
+.img-box-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    overflow: hidden;
+}
+
+.img-box-2 img{
+    width: 300px;
+    height: auto;
 }
