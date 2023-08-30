@@ -1,3 +1,19 @@
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #161616;
+}
+::-webkit-scrollbar-thumb {
+    background: #434649;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #85CB33;
+}
+
+
 html{
     scroll-behavior: smooth;
     font-size: 16px;
@@ -25,10 +41,12 @@ header{
 
 header ul{
     margin: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 header a, header h1{
     color: #f6f6f6;
     text-decoration: none;
+    font-family: System-ui,sans-serif;
 }
 
 nav{
