@@ -10,103 +10,163 @@
     border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #85CB33;
+    background: #FFA34A;
 }
 
-
+/* General Styles */
 html{
     scroll-behavior: smooth;
     font-size: 16px;
+    font-family: 'poppins', sans-serif;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* header */
-header{
-    height: 55vw;
-    position: relative;
-    background-image: url(./Images/11.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    /* top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 99; */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    color: #FFA34A;
+    
 }
 
-header ul{
-    margin: 0%;
-    font-family: 'Montserrat', sans-serif;
+
+ul {
+    list-style: none;
 }
-header a, header h1{
-    color: #f6f6f6;
+
+a {
     text-decoration: none;
-    font-family: System-ui,sans-serif;
 }
-nav{
-    height: 80px;
-    padding: 3rem;
+
+section {
+    padding: 2.5em;
+}
+
+nav {
+    padding: 1.5em 2.5em;
+    position: relative;
     display: flex;
     justify-content: space-between;
-}
-hr{
-    background: #000000;
-    /* height: 10px; */
-    margin: 0 5%;
-    /* border-radius: 30px; */
-}
-.menu {
-    text-decoration: none;
-    list-style-type: none;
-    display: inline-block;
+    align-items: center
+    
 }
 
-.item-nav {
-    text-decoration: none;
-    margin: 0 0.4rem;
-    font-size: 1vw;
-    font-weight: 400;
-    cursor: pointer;
-    color: #F2F2F2;
+
+/* Specific Styles */
+
+
+/* Header Styles */
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.item-nav:hover {
-    font-weight: 500;
-    color: #17dddd;
-}
+#background-header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+     background-color: rgba(0, 0, 0, 1);
 
-#menu {
-    display: none;
 }
+  
 
-.menu-icono {
-    width: 25px;
-}
-
-.logo{
-    background-color: #17dddd;
-}
-
-.header-body{
-    display: flex;
-    justify-content: right;
-    text-align: justify;
-}
-.header-body h1{
+.header-body h1 {
+    /* Bloque de definición de h1 dentro de .header-body */
     margin: 0%;
     padding-top: 2%;
     padding-left: 60%;
-    padding-right: 8%;
     text-align: right;
-    font-size: 2.5vw; 
-    
+    font-size: 2.5vw;
+    background: linear-gradient(to right, #ffffff,#FFA34A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.header-body {
+    padding: 8em 2em 0 0; 
+    box-sizing: border-box;
+}
+
+.menu-btn{
+    color: #00d86c;
+    display: none;
+}
+
+.brand {
+    padding: 0.3em;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 0 0.8em;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+nav a .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  nav a .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffc506;
+    transition: .5s ease;
+  }
+  
+  nav a .btn:hover {
+    color: #1e1e2b;
+    transition-delay: .5s;
+  }
+  
+  nav a .btn:hover::before {
+    width: 100%;
+  }
+  
+  nav a .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  nav a .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+
+
+
+/* ------------------ */
 
 .titulo{
     display: inline-block;
@@ -117,7 +177,7 @@ hr{
 
 .datos{
     margin: 5%;
-    background-color: #ffcdac98;
+    background-color: #FFA34A;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -130,7 +190,7 @@ hr{
     text-align: center;
 }
 .text-box-1 h2, h3{
-    color: #25b205;
+    color: white;
     padding-bottom: 1%;
 }
 .text-box-1 h2{
@@ -193,6 +253,7 @@ hr{
     margin: 1%;
 }
 /* End of the code block */
+
 .text-box-2{
     text-align: justify;
     padding: 1.5rem;
@@ -216,6 +277,8 @@ hr{
     margin: 0 auto;
     padding-top: 3%;
 }
+
+
 
 
 
