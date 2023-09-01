@@ -30,6 +30,9 @@ html {
     padding: 0;
 }
 
+body {
+    background-color: #161616;
+}
 
 h1 {
     font-family: 'Orbitron', sans-serif;
@@ -259,7 +262,7 @@ label {
     font-weight: 700;
     display: inline-block;
     cursor: pointer;
-    background-color: #FFA34A;
+    background-color: #00d86c;
     padding: 15px 30px;
     border-radius: 5px;
 }
@@ -675,7 +678,6 @@ label {
     list-style: none;
     color: white;
 }
-
 /* galeria */
 .container-galeria {
     margin: 5%;
@@ -768,22 +770,9 @@ label {
     font-weight: 400;
 }
 
-.card-btn {
-    color: #1f3d47;
-    background: #8fabba;
-    padding: 10px 20px;
-    width: 120px;
-    border-radius: 5px;
-    text-transform: capitalize;
-    border: none;
-    outline: none;
-    font-weight: 500;
-    cursor: pointer;
-}
-
 /* galeria */
 
-/* .container-galeria {
+.container-galeria {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -889,4 +878,4 @@ label {
         top: 20px;
         right: 20px;
     }
-} */
+}
