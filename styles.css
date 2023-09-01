@@ -21,6 +21,7 @@ html {
     scroll-behavior: smooth;
     font-size: 16px;
     font-family: 'poppins', sans-serif;
+    background-color: #161616;
 }
 
 * {
@@ -29,9 +30,6 @@ html {
     padding: 0;
 }
 
-body {
-    background-color: #161616;
-}
 
 h1 {
     font-family: 'Orbitron', sans-serif;
@@ -248,7 +246,7 @@ label {
     font-weight: 700;
     display: inline-block;
     cursor: pointer;
-    background-color: #00d86c;
+    background-color: #FFA34A;
     padding: 15px 30px;
     border-radius: 5px;
 }
@@ -552,7 +550,101 @@ label {
     list-style: none;
 }
 
-/* galeria */
+
+/* Galeria */
+
+.galeria div h1{
+    text-align: center;
+}
+.container-galeria{
+    width: 100%;
+    margin: 0;
+    background: #161616 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 1800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+
+}
+
+.img-box-2 {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(Images/1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.8s;
+    transform-origin: center top;;
+}
+
+.img-box-2:nth-child(2){
+    background: url(Images/13.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(3){
+    background: url(Images/3.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(4){
+    background: url(Images/4.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(5){
+    background: url(Images/5.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(6){
+    background: url(Images/13.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(7){
+    background: url(Images/16.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2:nth-child(8){
+    background: url(Images/8.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-2 h3{
+    display: none;
+}
+
+.img-box-2:hover{
+    width: 600px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+
+
+/* galeria
 .container-galeria {
     margin: 5%;
 }
@@ -636,11 +728,11 @@ label {
     outline: none;
     font-weight: 500;
     cursor: pointer;
-}
+} */
 
 /* galeria */
 
-.container-galeria {
+/* .container-galeria {
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -746,4 +838,4 @@ label {
         top: 20px;
         right: 20px;
     }
-}
+} */
