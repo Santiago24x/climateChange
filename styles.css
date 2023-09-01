@@ -128,12 +128,12 @@ nav ul li a:hover::after {
 }
 
 .header-body p {
-    font-size: 50px;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
 .header-body h1 {
-    font-size: 140px;
+    font-size: 4.5rem;
     line-height: 160px;
     margin-left: -10px;
     color: transparent;
@@ -151,7 +151,7 @@ nav ul li a:hover::after {
 }
 
 .header-body h3 {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -220,10 +220,11 @@ h3 {
 }
 .explicacion h1{
     color: #F2F2F2;
+    padding-bottom: 2%;
 }
 .explicacion p{
     color: #F2F2F2;
-    background-color: #8e8b88c8;
+    background-color: #71706f83;
     border-radius: 15px;
 }
 
@@ -234,7 +235,7 @@ h3 {
 }
 
 #check:checked~.hidden_txt1 {
-    padding: 1%;
+    padding: 4%;
     margin: 1% 5%;
     font-weight: 500;
     display: block;
@@ -279,12 +280,16 @@ label {
 /**/
 #check1:checked~.hidden_txt2 {
     padding: 1%;
+    margin-top: 0;
+    margin-bottom: 5%;
     display: block;
-    background-color: #bfffdf8a;
-    /* border-radius: 10px; */
-    color: black;
+    border-radius: 10px;
     justify-items: center;
     align-items: center;
+    color: #f6f6f6;
+    background-color: #8e8b883e;
+    border: solid rgb(254, 254, 254);
+    box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73);
 }
 
 #check1:checked~.labels2 {
@@ -314,6 +319,25 @@ label {
     display: none;
 }
 
+.hidden-img{
+    width: 95%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+   
+}
+
+.hidden-img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #f6f6f6;
+}
 /* End of the code block */
 
 .text-box-2 {
@@ -363,6 +387,7 @@ label {
     justify-content: center;
     display: inline-block;
     overflow: hidden;
+    
 }
 
 .container {
@@ -376,8 +401,9 @@ label {
 
 #slide {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     align-items: center;
+    
 }
 
 .item {
@@ -392,7 +418,7 @@ label {
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0px 20px 50px #505050;
+    box-shadow: 0px 10px 20px #9d9999a0;
 }
 
 .item:nth-child(1),
@@ -405,6 +431,8 @@ label {
     height: 100%;
     box-shadow: none;
     border-radius: 20px;
+    /* box-shadow: 0px 0px 20px #a69e9e90; */
+    box-shadow: inset 0 0 2px rgb(210, 193, 64), 0 0 10px rgb(238, 224, 73);
 }
 
 .item:nth-child(3) {
@@ -423,9 +451,9 @@ label {
 
 .item .content {
     position: relative;
-    top: 50%;
-    left: 8%;
-    width: 300px;
+    top: 45%;
+    left: 4%;
+    width: 350px;
     text-align: left;
     padding: 0;
     color: #eee;
@@ -440,9 +468,9 @@ label {
 }
 
 .item .name {
-    width: 160px;
-    padding: 5%;
-    font-size: 35px;
+    width: auto;
+    padding: 1%;
+    font-size: 32px;
     font-weight: bold;
     opacity: 0;
     animation: showcontent 1s ease-in-out 1 forwards;
@@ -451,7 +479,8 @@ label {
 }
 
 .item .des {
-    margin: 20px 0px;
+    text-align: left;
+    margin: 2.5% 0px;
     padding: 15px;
     animation: showcontent 1s ease-in-out 0.3s 1 forwards;
     background-color: #70716c90;
@@ -466,6 +495,9 @@ label {
     animation: showcontent 1s ease-in-out 0.6s 1 forwards;
 }
 
+.item ol{
+    margin: 5%;
+}
 @keyframes showcontent {
     from {
         opacity: 0;
@@ -492,12 +524,12 @@ label {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #555;
     transition: 0.5s;
+    background-color: #a29d9db5;
 }
 
 .buttons button:hover {
-    background-color: #747471;
+    background-color: #747471b7;
 }
 
 @media screen and (max-width: 400px){
@@ -575,7 +607,6 @@ label {
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        border: 1px solid #555;
         transition: 0.5s;
     }
 }
@@ -588,10 +619,10 @@ label {
 }
 
 .target {
-    margin: 5%;
+    margin: 2%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 20px;
+    gap: 15px;
     justify-items: center;
     align-items: start;
 
@@ -599,11 +630,15 @@ label {
 
 .cards {
     width: 100%;
-    height: 100%;
+    height: 500px;
     padding: 1.5rem;
     text-align: justify;
-    background-color: #bfffdf8a;
-    /* border-radius: 10px; */
+    background-color: #8e8b883e;
+    color: #F2F2F2;
+    border: solid #f6f6f6;
+    box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73);
+    border-radius: 10px;
+    align-items: center;
 
 }
 
@@ -611,6 +646,9 @@ label {
     padding: 0.5rem;
 }
 
+.cards img {
+    margin: 0 20%;
+}
 .cards a {
     width: 100%;
     text-decoration: none;
