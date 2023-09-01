@@ -603,6 +603,7 @@ label {
     padding: 1.5rem;
     text-align: justify;
     background-color: #bfffdf8a;
+    /* border-radius: 10px; */
 
 }
 
@@ -623,32 +624,21 @@ label {
 /* mitigacion */
 
 .container-mitigacion {
-    width: 50%;
+    width: 80%;
     margin: 5% auto;
     text-align: center;
 }
-
-.container-mitigacion a {
-    text-decoration: none;
-    position: relative;
-    padding: 2.5%;
-    color: #F2F2F2;
-    border-radius: 0.4rem;
-    background-color: #25b205;
-}
-
 .target-mitigacion {
     padding: 1.4rem;
     border: solid;
-    box-shadow: 5px 5px rgb(0, 0, 0);
+    border-radius: 10px;
 }
-
 .target-mitigacion li {
     padding: 0.8rem;
     text-align: justify;
     list-style: none;
+    color: white;
 }
-
 /* galeria */
 .container-galeria {
     margin: 5%;
