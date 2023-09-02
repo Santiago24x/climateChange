@@ -14,37 +14,6 @@ Diseñar y desarrollar una plataforma web educativa, utilizando recursos digital
 
 ## Estado del Arte
 
-### Webgrafía
-
-[https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/](https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/)
-
-[https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico](https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico)
-
-[https://www.bbc.com/mundo/noticias-58912801](https://www.bbc.com/mundo/noticias-58912801)
-
-[https://www.un.org/es/climatechange/what-is-climate-change](https://www.un.org/es/climatechange/what-is-climate-change)
-
-[https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/](https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/)
-[https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico](https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico)
-
-[https://www.un.org/es/climatechange/science/key-findings](https://www.un.org/es/climatechange/science/key-findings)
-
-[https://www.iberdrola.com/sostenibilidad/mitigacion-y-adaptacion-al-cambio-climatico](https://www.iberdrola.com/sostenibilidad/mitigacion-y-adaptacion-al-cambio-climatico)
-
-[https://es.greenpeace.org/es/trabajamos-en/cambio-climatico/](https://es.greenpeace.org/es/trabajamos-en/cambio-climatico/)
-
-[https://climate.nasa.gov/en-espanol/datos/efectos/](https://climate.nasa.gov/en-espanol/datos/efectos/)
-
-[https://www.unicef.org/es/medio-ambiente-cambio-climatico](https://www.unicef.org/es/medio-ambiente-cambio-climatico)
-
-### Bancos de imágenes y visuales
-
-[https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
-
-[https://stock.adobe.com/es/](https://stock.adobe.com/es/premium)
-
-[https://pixabay.com/es/](https://pixabay.com/es/)
-[https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur](https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur)
 
 ### Los temas principales y que pensamos resolver en nuestra web son:
 
@@ -60,10 +29,6 @@ Diseñar y desarrollar una plataforma web educativa, utilizando recursos digital
     - Socioeconómico
     
     ---
-    
-
-## Estado del Arte 2.0
-
 ### (Enunciado principal)
 
 El cambio climático constituye la mayor amenaza medioambiental a la que se enfrenta la humanidad.
@@ -205,3 +170,36 @@ Estos consejos contribuirán a un futuro más verde y sostenible para todos.
 ## Diseño base
 
 ![Untitled](ImagenesReadme/Untitled.png)
+
+
+### Webgrafía
+
+[https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/](https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/)
+
+[https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico](https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico)
+
+[https://www.bbc.com/mundo/noticias-58912801](https://www.bbc.com/mundo/noticias-58912801)
+
+[https://www.un.org/es/climatechange/what-is-climate-change](https://www.un.org/es/climatechange/what-is-climate-change)
+
+[https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/](https://www.fundacionaquae.org/wiki/causas-y-consecuencias-cambio-climatico/)
+[https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico](https://www.gob.mx/inecc/acciones-y-programas/que-es-el-cambio-climatico)
+
+[https://www.un.org/es/climatechange/science/key-findings](https://www.un.org/es/climatechange/science/key-findings)
+
+[https://www.iberdrola.com/sostenibilidad/mitigacion-y-adaptacion-al-cambio-climatico](https://www.iberdrola.com/sostenibilidad/mitigacion-y-adaptacion-al-cambio-climatico)
+
+[https://es.greenpeace.org/es/trabajamos-en/cambio-climatico/](https://es.greenpeace.org/es/trabajamos-en/cambio-climatico/)
+
+[https://climate.nasa.gov/en-espanol/datos/efectos/](https://climate.nasa.gov/en-espanol/datos/efectos/)
+
+[https://www.unicef.org/es/medio-ambiente-cambio-climatico](https://www.unicef.org/es/medio-ambiente-cambio-climatico)
+
+### Bancos de imágenes y visuales
+
+[https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
+
+[https://stock.adobe.com/es/](https://stock.adobe.com/es/premium)
+
+[https://pixabay.com/es/](https://pixabay.com/es/)
+[https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur](https://www.nationalgeographic.es/medio-ambiente/2021/10/imagenes-para-capturar-la-devastacion-del-cambio-climatico-y-la-esperanza-para-el-futur)
