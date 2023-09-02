@@ -110,7 +110,7 @@ nev label {
 .container-header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/11.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/fondo.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 8%;
@@ -771,21 +771,23 @@ h3 {
 
 /* galeria */
 .container-galeria {
-    margin: 5%;
+    margin: 2%;
     text-align: center;
 }
 
-.img-box-2 {
+/*
+.galeria {
+    background-color: aqua;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 15px;
+    grid-template-columns: (5, 1fr);
+    gap: 10px;
     overflow: hidden;
 }
 
-.img-box-2 img {
+.galeria img {
     width: 300px;
     height: auto;
-}
+} */
 
 /* ------- */
 
@@ -878,7 +880,7 @@ h3 {
 
 .galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     width: 95%;
     margin: auto;
     gap: 20px;
@@ -890,7 +892,6 @@ h3 {
     display: block;
     position: relative;
     overflow: hidden;
-
 }
 
 .galeria img {
@@ -923,7 +924,8 @@ h3 {
 }
 
 .light-box img {
-    width: 75vw;
+    width: auto;
+    height: auto;
     max-height: 75vh;
 
     border-radius: 15px;
@@ -977,17 +979,17 @@ h3 {
 @media (max-width:991px) {
 
     .target-causas {
-    margin: 2%;
-    width: auto;
-    height: auto;
-    margin: 1%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    align-items: start;
-    gap: 15px;
+        margin: 2%;
+        width: auto;
+        height: auto;
+        margin: 1%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: start;
+        gap: 15px;
 
-}
+    }
 
     .menu-icono {
         width: 25px;
@@ -1023,46 +1025,47 @@ h3 {
 }
 
 /* Estilos generales para el footer */
-    footer {
-        background-color: #FFA34A;
-        color: white;
-        text-align: center;
-        padding: 20px 0;
-      }
-      .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 10px;
-      }
+footer {
+    background-color: #FFA34A;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
-      .social-link {
-        display: flex;
-        align-items: center;
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-        margin: 10px;
-      }
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
 
-      .social-link i {
-        font-size: 24px;
-        margin-right: 5px;
-      }
+.social-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+}
 
-      .copyright-text {
-        margin-top: 10px;
-        font-size: 14px; 
-      }
+.social-link i {
+    font-size: 24px;
+    margin-right: 5px;
+}
 
-      / Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */
-      @media screen and (max-width: 768px) {
+.copyright-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
 
-        .social-link {
-          font-size: 12px;
-        }
-        .copyright-text {
-          font-size: 12px; 
-        }
-      }
+/ Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */ @media screen and (max-width: 768px) {
+
+    .social-link {
+        font-size: 12px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+}
