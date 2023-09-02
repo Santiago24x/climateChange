@@ -13,19 +13,21 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+<!-- Header -->
 <header id="Header">
+  <div id="inicio"></div>
   <nav>
-    <img src="./Icons/logoBrand.png" alt="" class="logo">
+    <a href="#inicio"><img src="./Icons/logoBrand.png" alt="" class="logo""></a>
     <input type="checkbox" name="#" id="menu">
     <label for="menu">
       <img src="./Icons/menu.png" class="menu-icono" alt="">
     </label>
     <ul class="menu">
-      <li class="items-menu"><a href="" class="items-menu">Explicacion</a></li>
-      <li class="items-menu"><a href="" class="items-menu">Causas</a></li>
-      <li class="items-menu"><a href="" class="items-menu">Efectos</a></li>
-      <li class="items-menu"><a href="" class="items-menu">Mitigación</a></li>
-      <li class="items-menu"><a href="" class="items-menu">Galeria</a></li>
+      <li class="items-menu"><a href="#setExplicacion" class="items-menu">Explicacion</a></li>
+      <li class="items-menu"><a href="#setCausas" class="items-menu">Causas</a></li>
+      <li class="items-menu"><a href="#setEfectos" class="items-menu">Efectos</a></li>
+      <li class="items-menu"><a href="#setMitigacion" class="items-menu">Mitigación</a></li>
+      <li class="items-menu"><a href="#setGaleria" class="items-menu">Galeria</a></li>
     </ul>
   </nav>
   <div class="container-header">
@@ -37,6 +39,7 @@
   </div>
 
 </header>
+
 <!-- Seccion de datos -->
 <div class="datos">
   <div class="text-box-1">
@@ -67,6 +70,8 @@
 </div>
 
 
+<!-- Seccion Explicacion -->
+<section id="setExplicacion">
 <div class="container-explicacion">
   <h1 class="titulo">Explicación</h1>
   <div class="explicacion">
@@ -138,8 +143,10 @@
     <label for="check" class="labels1" id="">Ver menos</label>
   </div>
 </div>
+</section>
 
-
+<!-- Seccion de Causas -->
+<section id="setCausas">
 <div class="causas">
   <h1 class="titulo">Causas</h1>
   <section>
@@ -300,8 +307,10 @@
   </div>
 
 </div>
+</section>
 
-
+<!-- Seccion Mitigacion -->
+<section id="setMitigacion">
 <div class="container-mitigacion">
   <div>
     <h1 class="titulo">Mitigación</h1>
@@ -371,6 +380,10 @@
   </div>
 </div>
 
+</section>
+
+<!-- Seccion Galeria -->
+<section id="setGaleria">
 <div class="container-galeria" id="galery">
 
   <h1 class="titulo">Galeria </h1>
@@ -440,7 +453,9 @@
 
 </div>
 
+</section>
 
+<!-- Seccion Footer -->
 <footer>
   <div class="social-links">
     <a class="social-link" href="https://www.instagram.com/nicosanrz/" target="_blank"><i class="fab fa-instagram"></i> Nicosanrz</a>
