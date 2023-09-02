@@ -22,6 +22,7 @@ html {
     font-size: 16px;
     font-family: 'poppins', sans-serif;
     background-color: #161616;
+    margin: 0;
 }
 
 * {
@@ -108,10 +109,12 @@ nev label {
 
 /* Header Styles */
 .container-header {
+    margin: 0;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./images/fondo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 0 8%;
     position: relative;
@@ -200,10 +203,36 @@ nav ul li a:hover::after {
 }
 
 .header-body h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
+@media (max-width: 660px){
+
+    .header-body h1 {
+        font-size: 2.5rem;
+        line-height: 160px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px #FFA34A;
+        background: url(./images/back.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+
+    .header-body h3 {
+        font-size: 1em;
+        font-weight: 500;
+    }
+    
+
+    .header-body p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+}
 
 /* ------------------ */
 
@@ -219,7 +248,7 @@ nav ul li a:hover::after {
     margin: 5%;
     background-color: #8e8b883e;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 20px;
     padding: 1%;
     border-radius: 10px;
@@ -229,7 +258,8 @@ nav ul li a:hover::after {
 }
 
 .text-box-1 {
-    padding: 0.8rem;
+    /* margin: %; */
+    padding: 0.8em;
     text-align: center;
 }
 
@@ -248,7 +278,7 @@ h3 {
 }
 
 /* explicaion */
-.container-explicacion {
+.coverer-explicacion {
     margin: 5%;
     text-align: center;
 }
@@ -265,7 +295,7 @@ h3 {
     align-items: center;
     /* border: solid rgb(254, 254, 254); */
     /* box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73); */
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .explicacion h1 {
@@ -277,7 +307,7 @@ h3 {
     color: #F2F2F2;
     background-color: #71706f83;
     border-radius: 15px;
-    box-shadow: 8px 8px 30px rgba(254, 254, 254, 0.411);
+    /* box-shadow: 8px 8px 30px rgba(254, 254, 254, 0.411); */
 }
 
 #check,
@@ -302,6 +332,7 @@ h3 {
 }
 
 #hidden_txt {
+    width: auto;
     text-align: justify;
     margin: 0% 1% 0 1%;
     padding: 2%;
@@ -411,7 +442,6 @@ h3 {
 
 .text-box-2 {
     text-align: justify;
-    padding: 1.5rem;
 }
 
 .text-box-2 p {
@@ -428,7 +458,7 @@ h3 {
 }
 
 .img-box-1 img {
-    max-width: 300px;
+    width: 40%;
     margin: 0 auto;
     padding-top: 0;
     box-shadow: 0px 10px 70px #4aa7ea;
@@ -709,23 +739,28 @@ h3 {
 }
 
 .cards {
+    width: auto;
+    margin: 1%;
     width: 100%;
     height: 100%;
     padding: 0.5rem;
     text-align: justify;
-    background-color: #8e8b883e;
+    /* background-color: #8e8b883e; */
     color: #F2F2F2;
-    border: solid #f6f6f6;
-    box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73);
+    /* border: solid #f6f6f6; */
+    /* box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73); */
     border-radius: 10px;
     align-items: center;
 }
 
 .container-cards {
+    width: auto;
     height: 100%;
 }
 
 .cards p {
+    width: auto;
+    margin: 2%;
     padding: 0.5rem;
 }
 
@@ -756,13 +791,13 @@ h3 {
 
 .target-mitigacion {
     padding: 1.4rem;
-    background-color: #8e8b883e;
-    border: solid #f6f6f6;
-    box-shadow: inset 0 0 8px rgb(210, 193, 64), 0 0 30px rgb(238, 224, 73);
+    /* background-color: #8e8b883e; */
+    /* border: solid #f6f6f6; */
+    background-color: #71706f83;
     border-radius: 10px;
 }
 
-.target-mitigacion li {
+.target-mitigacion li, p {
     padding: 0.8rem;
     text-align: justify;
     list-style: none;
@@ -924,7 +959,7 @@ h3 {
 }
 
 .light-box img {
-    width: auto;
+    width: 70%;
     height: auto;
     max-height: 75vh;
 
@@ -1105,7 +1140,7 @@ footer {
         font-size: 14px; 
       }
 
-      / *Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */
+      /*Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */
       @media screen and (max-width: 768px) {
 
         .social-link {
