@@ -57,6 +57,54 @@ section {
 
 /* Specific Styles */
 
+nav {
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    background-color: #434649;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 2%;
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.item {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #F2F2F2;
+}
+
+.item:hover {
+    font-weight: 500;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    display: none;
+}
+
+nev label {
+    cursor: pointer;
+    display: none;
+}
 
 /* Header Styles */
 .container-header {
@@ -74,7 +122,7 @@ nav {
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px 0;
+    padding: 0;
 }
 
 .logo {
@@ -292,13 +340,14 @@ h3 {
 
 }
 
-.hidden-img img {
+/* .labels2,.labels3, .labels1{
+    margin: 2%;
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0px 0px 4px #f6f6f6;
-}
+} */
 
 /*End*/
 /*Ver más 2*/
@@ -647,18 +696,17 @@ h3 {
 }
 
 .target-causas {
+    margin: 2%;
     width: auto;
     height: auto;
     margin: 1%;
     display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-items: center;
     align-items: start;
     gap: 15px;
 
 }
-
 
 .cards {
     width: 100%;
@@ -715,14 +763,10 @@ h3 {
 }
 
 .target-mitigacion li {
-
+    padding: 0.8rem;
     text-align: justify;
+    list-style: none;
     color: white;
-    margin: 0.5em;
-}
-
-.container-mitigacion p {
-    color: #F2F2F2;
 }
 
 /* galeria */
@@ -754,10 +798,10 @@ h3 {
 }
 
 .cartas {
-    height: 700px;
+    height: 400px;
     margin: 4%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -803,21 +847,21 @@ h3 {
 
 .card-title {
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 1.5rem;
     font-weight: 500;
-    padding: 0.5rem;
+    padding: 1%;
 }
 
 .card-sub-title {
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .card-info {
-    font-size: 16px;
-    line-height: 25px;
-    margin: 25px 0;
+    font-size: 0.8em;
+    line-height: 0.6rem;
+    margin: 1% 0;
     font-weight: 400;
 }
 
@@ -920,6 +964,7 @@ h3 {
     border-radius: 5px;
 }
 
+
 @media screen and (max-width: 400px) {
     .galeria {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1014,7 +1059,8 @@ footer {
     font-size: 14px;
 }
 
-/ Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */ @media screen and (max-width: 768px) {
+ /*Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */ 
+ @media screen and (max-width: 768px) {
 
     .social-link {
         font-size: 12px;
@@ -1024,3 +1070,48 @@ footer {
         font-size: 12px;
     }
 }
+
+/* Estilos generales para el footer */
+    footer {
+        background-color: #FFA34A;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+
+      .social-link {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 10px;
+      }
+
+      .social-link i {
+        font-size: 24px;
+        margin-right: 5px;
+      }
+
+      .copyright-text {
+        margin-top: 10px;
+        font-size: 14px; 
+      }
+
+      / *Media query para dispositivos con un ancho máximo de 768px (tamaño de tablet) */
+      @media screen and (max-width: 768px) {
+
+        .social-link {
+          font-size: 12px;
+        }
+        .copyright-text {
+          font-size: 12px; 
+        }
+      }
