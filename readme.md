@@ -2,6 +2,7 @@
 
 ## **Situación Problema**
 
+
 El cambio climático es uno de los grandes desafíos de nuestro tiempo, que afecta a todos los aspectos de la vida humana y del planeta. La crisis climática tiene consecuencias negativas para la salud, la seguridad, la alimentación, el agua, la biodiversidad y el desarrollo. Además, el cambio climático también impacta en la educación, ya que dificulta el acceso, la permanencia y el aprendizaje de los estudiantes, especialmente de los más vulnerables.
 
 Ante esta situación, es necesario promover una educación que contribuya a la comprensión y la acción frente al cambio climático, que forme ciudadanos conscientes, responsables y comprometidos con el medio ambiente. Una educación que ofrezca recursos visuales, información actualizada para educar a usuarios de diversas edades sobre el cambio climático y sus soluciones.
